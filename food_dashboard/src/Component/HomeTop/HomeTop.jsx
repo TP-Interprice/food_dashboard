@@ -8,7 +8,7 @@ const HomeTop = () =>{
       <div className="home-top__header">
         <div className="user">
           <h2 className="user__name">
-           Rustambek Mamadaliyev
+           Temurbek Pardaboyev
           </h2>
           <p className="user__date">{date()}</p>
         </div>
