@@ -1,0 +1,209 @@
+ul,ol{
+  list-style: none;
+}
+.order-foods-list{
+  padding: 10px 0;
+  padding-left: 0;
+  overflow:auto;
+  
+  height: 52vh;
+  padding-right: 15px;
+  
+.order-food{
+  padding: 10px;
+  padding-left: 0;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  &__left{
+    display: flex;
+    img{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    &__title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 100%;
+      color: #FFFFFF;
+    }
+    &__text{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 80%;
+      color: #ABBBC2;
+    }
+    span{
+      padding-left: 10px;
+
+    }
+    
+  }
+
+  &__right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    
+    &-number{
+      background-color: #2D303E;
+      border: 1px solid #393C49;
+      box-sizing: border-box;
+      border-radius: 8px;
+      padding: 2px 15px;
+      width: 48px;
+      height: 42px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    &-price{
+      margin-left: 15px;
+      // width: 50px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 140%;
+      text-align: right;
+      color: #FFFFFF;
+
+    }
+  }
+
+  &__bottom{
+    padding: 10px 0;
+    padding-top: 0;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+      &-input{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: #E0E6E9;
+        /* Base / Form BG */
+
+        background: #2D303E;
+        /* Base / Dark Line */
+
+        border: 1px solid #393C49;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 10px 14px;
+        outline: none;
+        width: 332px;
+      }
+
+      &-btn{
+        background-color:transparent;
+        border-radius: 8px;
+        border: 1px solid #FF7CA3;
+        padding:3px 5px;
+        width: 48px;
+        height: 46px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+      }
+      &-btn:hover{
+        transform: scale(0.9);
+        color: white;
+        border: 2px solid #EA7C69;
+        background-color: white;
+      }
+  }
+}
+
+}
+
+  .order-footer{
+      padding: 15px 10px;
+      border-top: 1px solid #393C49;
+        span{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 0;
+
+      p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        color: #ABBBC2;
+      }
+      b{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: right;
+        color: #FFFFFF;
+      }
+    }
+
+    &-btn{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      background: #EA7C69;
+      border: none;
+      box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+      border-radius: 8px;
+      color: #FAFAFA;
+      padding: 14px;
+      text-align: center;
+      width: 381px;
+      margin-top: 15px;
+      transition: 0.3s;
+    }
+
+    &-btn:hover{
+      background-color: transparent;
+      border: 1px solid #EA7C69;
+      transform: scale(0.92);
+      color: #EA7C69;
+      box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+    }
+
+   
+}
+
+
+.modal {
+  position: relative;
+padding: 25px;
+
+}
+.close-btn{
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  transform: translate(-50%,-50%);
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal-title{
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 5px;
+  letter-spacing: normal;
+}
+
